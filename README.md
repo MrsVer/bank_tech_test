@@ -40,3 +40,7 @@ As a customer
 So I can keep track of my spending,
 I would like to view my bank statement and my transactions.
 ```
+## Technologies
+
+Language: Javascript, html, css
+Test: Jasmine
