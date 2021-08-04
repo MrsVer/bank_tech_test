@@ -13,4 +13,14 @@ describe("Account", function () {
       expect(account.balance).toEqual(0)
     });
   });
+
+  describe('Add deposit', () => {
+    beforeEach(() => {
+      account.deposit(1000);
+    });
+    
+    it('Customer add money to the balance', () => {
+      expect(account.balance).toEqual(1000);
+    });
+  });
 });
