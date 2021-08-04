@@ -18,9 +18,21 @@ describe("Account", function () {
     beforeEach(() => {
       account.deposit(1000);
     });
-    
+
     it('Customer add money to the balance', () => {
       expect(account.balance).toEqual(1000);
     });
   });
+
+  describe('Withdraw money', () => {
+    beforeEach(() => {
+      account.deposit(500);
+    });
+
+    it('Customer Withdraw money from the balance', () => {
+      expect(account.balance).toEqual(500);
+    });
+  });
+
+
 });
