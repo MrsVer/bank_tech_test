@@ -5,4 +5,8 @@ class Account {
     getCurrentBalance() {
         return this.balance;
       }
+
+      deposit(amount) {
+        this.balance += amount;
+      }
 }
