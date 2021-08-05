@@ -45,3 +45,7 @@ I would like to view my bank statement and my transactions.
 Language: Javascript, html, css
 
 Test: Jasmine
+
+## Sequence diagram
+
+![Domain model](../bank_tech_test/attachements/model_diagram.png)
