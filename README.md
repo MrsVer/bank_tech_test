@@ -48,4 +48,4 @@ Test: Jasmine
 
 ## Sequence diagram
 
-![Domain model](../bank_tech_test/attachements/model_diagram.png)
+![Domain model](./attachements/model_diagram.png)
